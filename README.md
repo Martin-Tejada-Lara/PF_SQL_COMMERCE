@@ -6,6 +6,23 @@ Este proyecto corresponde a un análisis de datos de ventas de una empresa del s
 El objetivo es trabajar con información de clientes, productos y transacciones para realizar un proceso básico de preparación, validación y análisis de datos, obteniendo información útil para la toma de decisiones comerciales.
 El proyecto contempla desde la creación y validación de las estructuras de datos hasta la elaboración de consultas analíticas orientadas a identificar clientes de alto valor, evolución de ventas, productos de baja rotación y principales transacciones por categoría.
 
+## Problema de negocio
+
+Una empresa de retail con ventas distribuidas en distintas regiones y cuatro categorías de productos (Books, Clothing, Electronics y Home Decor) necesita entender mejor su operación comercial para decidir dónde enfocar sus esfuerzos. Hoy cuenta con datos de clientes, productos y transacciones, pero no tiene respuestas claras a preguntas como:
+
+- **¿Las ventas dependen de pocos clientes?** Si fuera así, perder a uno de ellos tendría un impacto alto; si no, la estrategia de fidelización debería pensarse de otra manera.
+- **¿Cuándo vende más y cuándo menos?** Conocer los meses fuertes y débiles permite planificar campañas, promociones y niveles de stock.
+- **¿Qué productos tienen baja rotación?** Identificarlos ayuda a decidir si conviene aplicar descuentos, cambiar su visibilidad o revisar si vale la pena seguir ofreciéndolos.
+- **¿Cómo se comportan los pedidos de mayor valor en cada categoría?** Comparar los tickets altos dentro de cada categoría (y no entre categorías distintas) muestra si alguna concentra las ventas más grandes.
+
+### Pregunta central
+
+> ¿Qué clientes, períodos, productos y categorías deberían priorizarse para aumentar y estabilizar las ventas?
+
+### Alcance del análisis
+
+Se analizaron aproximadamente 13 meses de transacciones (diciembre 2023 a diciembre 2024) con un total de ~690.000 en ventas, utilizando PostgreSQL. El objetivo no es solo obtener los números, sino traducirlos en recomendaciones concretas para un equipo directivo.
+
 ---
 
 ## Objetivo
